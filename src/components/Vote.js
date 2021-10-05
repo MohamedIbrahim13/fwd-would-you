@@ -35,7 +35,7 @@ const Vote = ({ qid,questions, users, authedUser,answered }) => {
               name="option"
               value="optionOne"
               id="optionOne"
-              defaultChecked={question.optionOne.votes.includes(user.id)}
+              defaultChecked={question.optionOne.votes.includes(authedUser)}
               onChange={e => setOption(e.target.value)}
             />
             <label className="btn btn-outline-primary mb-2" htmlFor="optionOne">
@@ -48,7 +48,7 @@ const Vote = ({ qid,questions, users, authedUser,answered }) => {
               name="option"
               value="optionTwo"
               id="optionTwo"
-              defaultChecked={question.optionTwo.votes.includes(user.id)}
+              defaultChecked={question.optionTwo.votes.includes(authedUser)}
               onChange={e => setOption(e.target.value)}
             />
             <label className="btn btn-outline-primary" htmlFor="optionTwo">

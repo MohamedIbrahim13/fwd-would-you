@@ -6,6 +6,20 @@ This is the final code for the final assessment project for Udacity's React & Re
 # Live Demo:  https://fwd-would-you.vercel.app/
 
 
+## Installation
+
+### Requirements
+The project uses Node.js and the Create-React-App starter. 
+
+If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
+
+### Setup
+
+* Install dependencies with `npm install`
+* Start the development server with `npm start`
+* Open the browser at `localhost:3000`
+
+
 ## Data
 
 There are two types of objects stored in our database:
